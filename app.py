@@ -1865,4 +1865,3 @@ def update_importance_plot(cliente, filial, tipo_equip, equipamento, start_date,
 # Inicialização do servidor
 if __name__ == '__main__':
     app.run_server(debug=False, host='0.0.0.0', port=int(os.environ.get("PORT", 8080)))
-
